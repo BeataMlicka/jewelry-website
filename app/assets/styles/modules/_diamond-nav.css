@@ -1,0 +1,53 @@
+.diamond {
+    
+    width: 150px;
+    height: 22px;
+    text-align: center;
+    transition: all 1s ease;
+    
+    &--150 {
+        transform: translateX(150px);
+    }
+    
+    &--300 {
+        transform: translateX(305px);
+    }
+    
+    &--450 {
+        transform: translateX(460px);
+    }    
+    
+    &--600 {
+        transform: translateX(610px);
+    }
+    
+    img {
+        height: 18px;
+    }
+}  
+
+.diamond-nav {
+    
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 10px 40px 10px 0;  
+    
+    a {
+        color: #000000;
+        text-decoration: none;
+        padding: 10px 10px;
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        margin: 0;
+    } 
+}
+
+.lang {
+    p {
+        padding: 10px 20px;
+    }
+}
+
+

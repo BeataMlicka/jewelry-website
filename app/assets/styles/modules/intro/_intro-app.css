@@ -1,0 +1,14 @@
+.intro-app {
+
+    display: none;
+    
+    @mixin atMedium {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        background-image: url("/app/assets/images/backgrounds/background-lines-grid.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

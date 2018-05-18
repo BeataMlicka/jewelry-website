@@ -1,0 +1,24 @@
+.about {
+    
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic; 
+    padding: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+    h4 {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        text-align: center;
+        padding: 20px 0;
+    }       
+    
+    &--description {
+        
+        p {
+            font-style: normal; 
+        }
+    }
+    
+}

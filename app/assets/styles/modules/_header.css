@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    font-family: 'Playfair Display', serif;
+    
+    @mixin atMedium {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    &--logo {
+        
+        width: 100%;
+
+        &--picture{
+            margin-left: auto;
+            margin-right: auto;
+            height: 55px;
+            margin: 5px;
+        }
+
+        &--name{
+            margin-left: auto;
+            margin-right: auto;
+            height: 45px;
+        }
+
+        &--desc{
+            margin-left: auto;
+            margin-right: auto;
+            height: 30px;
+        }
+        
+        @mixin atMedium {
+            width: 200px;
+        }
+        
+        @mixin atBig {
+            width: 250px;
+        }
+    }
+    
+    &--nav {
+        width: 150px;
+    }
+}

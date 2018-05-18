@@ -1,0 +1,38 @@
+.visibility {
+    
+    display: block;
+    
+    &--non {
+        display: none;
+    }
+    
+    &--non-atMedium {
+        @mixin atMedium {
+            display: none;
+        }
+    }
+    
+    &--atSmall {
+        display: none;
+        
+        @mixin atSmall {
+            display: block;
+        }
+    }
+    
+    &--atMedium {
+        display: none;
+        
+        @mixin atMedium {
+            display: block;
+        }       
+    }
+    
+    &--atBig {
+        display: none;
+        
+        @mixin atBig {
+            display: block;
+        }       
+    }
+}

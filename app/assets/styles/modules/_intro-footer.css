@@ -1,0 +1,105 @@
+.intro-footer {
+    height: 80px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic; 
+    box-sizing: border-box;
+    padding: 0 20px 10px 20px;
+    font-size: 1.6rem;
+    
+    @mixin atMedium {
+        font-size: 1.35rem;
+        height: 100px;
+    }
+    
+    @mixin atBig {
+        font-size: 1.35rem;
+        height: 70px;
+    } 
+    
+    @mixin atLarge {
+        font-size: 1.4rem;
+        height: 80px;
+    }   
+    
+    a {
+        color: #000000;
+    }
+
+    a:hover {
+        color: #000000;
+    }      
+    
+    &--entry-button {
+        height: 50px;
+        padding: 10px;
+    }
+    
+    &--nav-button {
+        
+        display: none;
+        
+        @mixin atMedium {
+            
+            display: flex;
+            height: 45px;
+
+            p {
+                border-bottom: 1px solid #000000;
+            }
+
+            &--left {
+                p {
+                    padding: 0 10px 0 45px;
+                }
+
+                img {
+                    transform: translateX(50%) translateY(14%);
+                }
+            }
+
+            &--right {
+                p {
+                    padding: 0 45px 0 10px;
+                }
+                img {
+                    transform: translateX(-50%) translateY(14%);
+                }
+            }
+
+            img {
+                width: 50px;
+                padding: 5px 0;
+            }            
+        }
+        
+        
+        @mixin atBig {
+            
+            height: 50px;
+
+            &--left {
+                p {
+                    padding: 0 10px 0 45px;
+                }
+
+                img {
+                    transform: translateX(50%) translateY(18%);
+                }
+            }
+
+            &--right {
+                p {
+                    padding: 0 45px 0 10px;
+                }
+                img {
+                    transform: translateX(-50%) translateY(18%);
+                }
+            }
+
+            img {
+                width: 50px;
+                padding: 5px 0;
+            }            
+        }
+    }
+}

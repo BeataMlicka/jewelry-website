@@ -1,0 +1,113 @@
+.products {
+    
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic; 
+    padding: 40px 0;
+    
+    h4 {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        text-align: center;
+        padding: 20px 0;
+    }      
+    
+    &--description {
+        
+        p {
+            font-style: normal; 
+        }
+    }
+    
+    &--offer {
+        justify-content: space-between;
+        margin: 30px 0 10px 0;
+        height: 400px;
+    }
+    
+    &--single {
+        
+        width: 300px;
+        height: 350px;
+        
+        &--pictures {
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+    }
+    
+  
+}
+
+.ring-top {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.ring-bottom {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+}
+
+.ring-top:hover {
+    opacity: 0;
+}
+
+.wedding-ring-top {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 1.5s ease;
+}
+
+.wedding-ring-bottom {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+}
+
+.wedding-ring-top:hover {
+    opacity: 0;
+}
+
+.other-top {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 1.5s ease;
+}
+
+.other-bottom {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+}
+
+.other-top:hover {
+    opacity: 0;
+}

@@ -1,0 +1,64 @@
+.contact {
+    
+    background-color: #1D222E;
+    min-height: 100%;
+    padding: 100px 0 10px 0;
+    
+    &--main {
+        
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+        &--logo {
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        &--name {
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px 0;
+        }        
+    
+        &--desc {
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        &--info {
+            color: #ffffff;
+            justify-content: center;
+            font-family: 'Playfair Display', serif;
+            font-style: italic; 
+            padding: 40px 0;
+    
+            h4 {
+                font-family: 'Playfair Display', serif;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 2rem;
+            }
+            
+            p {
+                font-family: 'Playfair Display', serif;
+                text-align: center;
+                font-size: 1.4rem;
+                font-style: normal;
+            }
+            
+            img {
+                width: 300px;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+        }
+        
+    }
+    
+}

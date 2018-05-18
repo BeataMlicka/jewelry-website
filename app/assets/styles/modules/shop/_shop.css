@@ -1,0 +1,33 @@
+.shop {
+    padding: 100px 0;
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+
+    h4 {
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 2rem;
+        font-style: italic;
+    }    
+    
+    &--product {
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+        
+        img {
+            width: 80%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin: auto;
+            transition: all 1.5s ease;
+        }
+        
+        img:hover {
+            width: 100%;
+        }        
+    }
+}
